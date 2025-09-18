@@ -444,7 +444,6 @@ section.show {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .project-box:hover {
@@ -460,15 +459,20 @@ section.show {
 }
 
 .project-box h3 {
-    padding: 20px 10px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #fff;
-    transition: color 0.3s;
+        display: flex;
+    justify-content: center;
+    color: white !important;
+    text-decoration: underline;
+    padding-top: 15px;
+}
+
+.project-box h3 a{
+    color: white !important;
+    margin: 0;
 }
 
 .project-box h3:hover {
-    color: #871ac1; 
+    color: #e3dde6; 
 }
 
 .project-box a {
