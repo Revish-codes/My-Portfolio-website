@@ -482,12 +482,11 @@ section.show {
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
-    flex-direction: column;
 }
 
 .site{
-  color: white;
-  font-weight: 600;
+  color: white !important;
+  font-weight: 600 !important;
 }
 
 .popup {
@@ -549,6 +548,7 @@ section.show {
     align-items: center;
     padding: 5px 20px;
     font-size: 25px;
+    flex-direction: column;
 }
 
 .project-box a:hover{
