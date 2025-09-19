@@ -542,7 +542,6 @@ section.show {
 
 
 .project-box a{
-    display: flex;
     justify-content: end;
     gap: 5px;
     align-items: center;
