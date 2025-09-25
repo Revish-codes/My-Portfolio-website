@@ -11,7 +11,19 @@ body{
 }
 
 h1{
-   font-size: clamp(30px, 5rem + 2vw, 70px);
+   font-size: 5rem
+}
+
+@media (max-width:1360px){
+  h1{
+    font-size: 4rem;
+  }
+}
+
+@media (max-width:768px){
+  h1{
+    font-size: 3rem;
+  }
 }
 
 h2{
@@ -24,6 +36,12 @@ h3{
 
 p{
     font-size: clamp(14px, 1rem + 2vw, 25px);
+}
+
+@media (max-width:768px){
+  p{
+    font-size: 1rem;
+  }
 }
 
 .global-width{
@@ -403,16 +421,13 @@ section.show {
 }
 
 .fire-text {
-  font-size: 100px;
+  font-size: 50px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   position: relative;
   color: transparent;
-  background-image: linear-gradient(
-    90deg, 
-    #a855f7, #fff, rgb(104, 41, 151), #b1aaa6, #5e7a96
-  ); 
+  background-image: linear-gradient(90deg,  #a855f7, #fff, rgb(104, 41, 151), #b1aaa6, #5e7a96); 
   background-size: 400% 400%;
   -webkit-background-clip: text;
   background-clip: text;
