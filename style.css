@@ -384,10 +384,28 @@ section.show {
   animation: line-anim 2s ease-in-out infinite alternate;
 }
 
+.hero-right img{
+   height:100%;
+    width:300px;
+}
+
+@media (max-width:768px){
+  .hero-right img{
+      height:300px;
+      width:300px;
+ }
+}
+
+
 @keyframes line-anim {
   0%   { width: 0; left: 0; }      
   50%  { width: 100%; left: 0; }    
   100% { width: 0; left: 100%; }    
+}
+
+.about-profile h1 img{
+   height:100%;
+    width:300px;
 }
 
 
